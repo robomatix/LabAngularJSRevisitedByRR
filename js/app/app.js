@@ -10,7 +10,12 @@
         console.log('Configuring application...');
     };
 
-    function appRun() {
+    function appRun($rootScope) {
         console.log('Application started...');
+
+        $rootScope.user = {
+            LastName: 'Lab',
+            FirstName: 'DCube'
+        };
     };
 })();
