@@ -9,5 +9,5 @@
         high: 3
     });
 
-    module.constant('baseApiUrl', 'http://todolabs.azurewebsites.net');
+    module.constant('baseApiUrl', 'json');
 })();
